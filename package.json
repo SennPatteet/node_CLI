@@ -1,0 +1,32 @@
+{
+  "name": "pwned",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SennPatteet/node_CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "pwned": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/SennPatteet/node_CLI/issues"
+  },
+  "homepage": "https://github.com/SennPatteet/node_CLI#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "email-validator": "^2.0.4",
+    "figlet": "^1.2.1",
+    "ora": "^3.1.0",
+    "readline-sync": "^1.4.9",
+    "striptags": "^3.1.1",
+    "yargs": "^13.1.0"
+  }
+}
